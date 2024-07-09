@@ -16,7 +16,11 @@ The main purpose of this tool is to:
 
 ## Concept: Expected Announcement Volatility (EAV)
 
-This program applies the concept of Expected Announcement Volatility (EAV) from academic research on retail investor behavior. Key points:
+This program applies the concept of Expected Announcement Volatility (EAV) from academic research on retail investor behavior. 
+Link to article: https://tinyurl.com/ea-vol
+
+
+Key points:
 
 - EAV is approximated using AbnormalIV, calculated from option prices
 - Higher AbnormalIV suggests the market expects more volatility around upcoming events (e.g., earnings announcements)
