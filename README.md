@@ -1,4 +1,4 @@
-# Looking-For-EVA
+# Looking For EVA
 # Stock Analyzer: News Coverage and Abnormal Implied Volatility
 
 ## Overview
