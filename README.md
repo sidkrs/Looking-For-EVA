@@ -51,7 +51,4 @@ This program applies the concept of Expected Announcement Volatility (EAV) from 
 - Limited to stocks with available options data
 - Relies on the accuracy and timeliness of news and financial data sources
 - Does not predict stock performance; it's a tool for analysis, not investment advice
-
-## Disclaimer
-
-This tool is for educational and research purposes only. It does not constitute financial advice. Always conduct your own research and consult with a qualified financial advisor before making investment decisions.
+  
