@@ -17,6 +17,7 @@ The main purpose of this tool is to:
 ## Concept: Expected Announcement Volatility (EAV)
 
 This program applies the concept of Expected Announcement Volatility (EAV) from academic research on retail investor behavior. 
+
 Link to article: https://tinyurl.com/ea-vol
 
 
