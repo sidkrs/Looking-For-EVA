@@ -54,9 +54,8 @@ Key points:
 
 ## Limitations and Considerations
 
-- Limited to stocks with available options data
+- Limited to stocks within the S&P 500
 - Relies on the accuracy and timeliness of news and financial data sources
-- Does not predict stock performance; it's a tool for analysis, not investment advice
 
 *Ultimately, if there is high vol and high media coverage --> sell vol
 
