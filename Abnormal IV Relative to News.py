@@ -20,10 +20,10 @@ while True:
     stocks_to_analyze.append(stock.upper())
 
 
-api_key = input("Enter your NewsAPI key (https://newsapi.org/), If you want to use mine press enter: ")
+api_key = input("Enter your NewsAPI key (https://newsapi.org/): ")   # Replace with your actual NewsAPI key (https://newsapi.org/)
 
 if api_key == '':
-    api_key = '194c7329e2644a21924f266cdcbe29ff'  # Replace with your actual NewsAPI key (https://newsapi.org/)
+    break
 
 
 
