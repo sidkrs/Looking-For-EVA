@@ -26,11 +26,11 @@ if api_key == '':
     break
 
 
-
 class FocusedStockAnalyzer:
     def __init__(self, api_key):
         self.newsapi = NewsApiClient(api_key=api_key)
 
+    
     def get_news_coverage(self, tickers):
 
         # Fetch news coverage for each stock
@@ -86,6 +86,7 @@ class FocusedStockAnalyzer:
         else:
             return news_counts
 
+    
     def calculate_abnormal_iv(self, ticker):
         print(f"Calculating AbnormalIV for {ticker}...")
         try:
@@ -139,6 +140,7 @@ class FocusedStockAnalyzer:
             print(f"Error calculating AbnormalIV for {ticker}: {str(e)}")
             return None
 
+    
     def get_stock_price(self, ticker):
         try:
             stock = yf.Ticker(ticker)
@@ -190,9 +192,6 @@ class FocusedStockAnalyzer:
         return results
 
 
-
-
-
 def visualize_results(df):
     # Select only numeric columns for correlation analysis and visualization
     numeric_df = df.select_dtypes(include=[np.number])
@@ -235,6 +234,7 @@ def visualize_results(df):
     
     # Show the plot
     fig.show()
+
 
 def main():
     analyzer = FocusedStockAnalyzer(api_key)
