@@ -5,6 +5,8 @@
 
 This program is a stock analysis tool that examines the relationship between news coverage and abnormal implied volatility (AbnormalIV) for a set of stocks. It's inspired by research on retail investor behavior around earnings announcements and aims to identify stocks that might be subject to increased retail investor attention and potential mispricing.
 
+Check Out the S&P500 Earnings Calendar to See Stocks Reporting Earnings Soon: https://www.sectorspdrs.com/earningscalendar
+
 ## Purpose
 
 The main purpose of this tool is to:
